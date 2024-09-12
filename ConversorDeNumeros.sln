@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorDeNumeros", "ConversorDeNumeros\ConversorDeNumeros.csproj", "{0A04D115-DFDF-4C1D-B4A9-59496F4287F4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{1D1ACC80-2612-483F-9440-1DAD514C3F3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{3905EEC3-733D-466A-AF93-BE2584E40BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorDeNumerosTeste", "ConversorDeNumerosTeste\ConversorDeNumerosTeste.csproj", "{AFCFA5E4-9ED0-4B41-81AA-3746775967ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,13 @@ Global
 		{0A04D115-DFDF-4C1D-B4A9-59496F4287F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A04D115-DFDF-4C1D-B4A9-59496F4287F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A04D115-DFDF-4C1D-B4A9-59496F4287F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCFA5E4-9ED0-4B41-81AA-3746775967ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCFA5E4-9ED0-4B41-81AA-3746775967ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCFA5E4-9ED0-4B41-81AA-3746775967ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCFA5E4-9ED0-4B41-81AA-3746775967ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A04D115-DFDF-4C1D-B4A9-59496F4287F4} = {1D1ACC80-2612-483F-9440-1DAD514C3F3E}
+		{AFCFA5E4-9ED0-4B41-81AA-3746775967ED} = {3905EEC3-733D-466A-AF93-BE2584E40BC9}
 	EndGlobalSection
 EndGlobal
